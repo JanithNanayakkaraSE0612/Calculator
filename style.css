@@ -4,10 +4,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+main{
+    position: relative;
     background: black;
     width: 330px;
     height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    position: relative;
+    display: flex;
+    top: -160px;
+    left: 100px;
+    background-color: red;
+    width: 330px;
+    height: 200px;
+}
+.container{
+    position: relative;
+     width: 330px;
+     height: 350px;
+     background: pink;
     display: grid;
     grid-template-rows: repeat(5, 50px);
     grid-template-columns: repeat(4, 50px);
