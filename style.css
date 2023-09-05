@@ -13,7 +13,7 @@ body{
     grid-template-columns: repeat(5, 50px);
     grid-gap: 5px;
 }
-.btn1{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
